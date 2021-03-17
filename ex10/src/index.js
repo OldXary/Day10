@@ -19,12 +19,14 @@ function myFunction() {
                 1: "CD",
                 2: "LP",
                 3: "Cassete"
-            }
+            },
             "gold": true
 
-        }
-    };
-}
+        },
+
+    }; 
+    return myMusic;
+};
 
 console.log(myFunction()[2]);
 module.exports = myFunction;
